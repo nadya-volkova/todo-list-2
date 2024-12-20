@@ -1,0 +1,148 @@
+body {
+  font-family: "Tahoma";
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 2vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.header h1 {
+  font-size: 3vw;
+  color: #3e3939;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 2vw;
+}
+
+.input-field {
+  width: 150%;
+  padding: 1vw;
+  height: 2vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.5vw;
+}
+
+.error {
+  border-color: red;
+  border-width: 2px;
+}
+
+.error::placeholder {
+  color: red;
+  opacity: 1;
+}
+
+.add-button {
+  padding: 1vw 1.5vw;
+  border: none;
+  border-radius: 5px;
+  max-height: 5vw;
+  background-color: #e03b4c;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.5vw;
+  margin-top: 1vw;
+}
+
+.add-button:hover {
+  background-color: #ab2533;
+}
+
+.filter-section {
+  font-size: 1.3vw;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+}
+
+.filter-label input[type="checkbox"] {
+  cursor: pointer;
+  max-width: 2vw;
+  margin-right: 1vw;
+}
+
+.group {
+  display: flex;
+}
+
+.severity-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2vw;
+  margin: 1vw 2vw 0 25vw;
+  font-size: 1.5vw;
+}
+
+.severity-buttons label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  margin: 0.1vw;
+}
+
+.severity-buttons input[type="radio"] {
+  margin-right: 0.2vw;
+  max-width: 2vw;
+}
+
+.generate-button,
+.clear-button {
+  padding: 0vw 1vw;
+  font-size: 1.2vw;
+  margin: 0.7vw;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-button {
+  background-color: #0d7cf3;
+  margin-top: 0vw;
+  width: 10vw;
+  height: 4vw;
+  font-size: 1vw;
+}
+
+.generate-button:hover {
+  background-color: #0455ad;
+}
+
+.clear-button {
+  background-color: #e03b4c;
+  margin-top: 0vw;
+  width: 10vw;
+  height: 4vw;
+  font-size: 1vw;
+}
+
+.clear-button:hover {
+  background-color: #ab2533;
+}
+
+.no-todos-message {
+  color: rgb(63, 55, 55);
+  text-align: center;
+  margin-top: 6vw;
+  margin-left: 5vw;
+  font-size: 2vw;
+}

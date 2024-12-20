@@ -1,0 +1,40 @@
+.filter-section {
+  padding: 2vw;
+  border: 0.1vw solid #ccc;
+  border-radius: 0.67vw;
+  margin-bottom: 2.67vw;
+  background-color: #f9f9f9;
+  margin-top: 2vw;
+  max-height: 17vw;
+  max-width: 18vw;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.67vw;
+  max-width: 1.2vw;
+  margin-bottom: 0;
+}
+
+.search {
+  width: 15vw;
+  height: 1vw;
+  font-size: 1.3vw;
+  padding: 1.07vw;
+  margin-bottom: 1.33vw;
+  border: 0.1vw solid #ccc;
+  border-radius: 0.53vw;
+}
+
+label {
+  display: block;
+  margin: 0.67vw 0;
+}
+
+label input[type="checkbox"] {
+  margin-right: 0.67vw;
+}
+
+.severity-filter {
+  display: flex;
+  flex-direction: column;
+}
