@@ -1,5 +1,5 @@
 import React from "react";
-import "./filters.css";
+import "./Filters.css";
 
 export default class Filters extends React.Component {
   render() {
