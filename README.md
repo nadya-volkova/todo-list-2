@@ -14,6 +14,9 @@ This Todo List application allows users to create, edit, delete, and manage task
 - **Generate Tasks**: Automatically generate multiple tasks for testing.
 - **Clear Todos**: Remove all tasks from the list.
 
+<img src="https://github.com/user-attachments/assets/5956eac0-2229-4031-a627-6aea2eba835f" alt="TODO List" width="600"/>
+
+
 ## Technologies Used
 
 - **React**: For building user interfaces.
