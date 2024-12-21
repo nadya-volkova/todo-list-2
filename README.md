@@ -22,9 +22,6 @@ This Todo List application allows users to create, edit, delete, and manage task
 
 ## Installation
 
-1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
-   cd todo-list-app
    npm install
    npm run dev
