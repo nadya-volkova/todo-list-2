@@ -20,8 +20,18 @@ This Todo List application allows users to create, edit, delete, and manage task
 - **Chance.js**: For generating random task data.
 - **UUID**: For generating unique identifiers for each task.
 
+## Usage
+
+- Type a task name in the input field and an optional description.
+- Select a severity level (Срочно, Средне, Не срочно).
+- Press "ДОБАВИТЬ" to add the task to the list.
+- Use the search bar to filter tasks.
+- Check the box next to a task to mark it as completed.
+- Use the edit and delete icons to modify or remove a task.
+
 ## Installation
 
+1. Clone the repository:
    ```bash
    npm install
    npm run dev
